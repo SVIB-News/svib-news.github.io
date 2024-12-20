@@ -1,0 +1,8 @@
+SVIB News:
+  name: SVIB News
+  bio: "SVIB news is designed to give students a voice in the school, offering unique content unprovided on the official platform."
+  avatar: "/assets/images/logo.png"
+  links:
+    - label: Email
+      icon: fas fa-fw fa-envelope-square
+      url: "mailto:svib-news@outlook.com"

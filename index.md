@@ -1,6 +1,6 @@
 ---
 layout: archive
-author_profile: true
+author_profile: false
 ---
 
 ![SVIB News logo](/assets/images/logo-250x250.png)
@@ -21,20 +21,8 @@ author_profile: true
 >
 > <small>Owen Gao</small>
 
------
-
 {% assign categories = "Issues,Articles" | split: "," %}
 
 {% for category in categories %}
-{% assign posts = site.posts | where_exp: "item", "item.categories contains category" | sort: "date" | reverse %}
-## Recent {{ category }}
-{% if posts.size > 0 %}
-<div class="entries-list">
-{% for post in posts limit:5 %}
-{% include archive-single.html type=entries_layout %} 
-{% endfor %}
-</div>
-{% else %}
-<p>No {{ category | downcase }} found.</p>
-{% endif %}
+    {% include recents.html %}
 {% endfor %}
