@@ -1,0 +1,7 @@
+---
+title: "First Issue"
+date: 2024-12-20 09:00:00 +0800
+---
+
+{% assign link = "/assets/issues/december-issue.pdf" %}
+{% include pdf.html %}
