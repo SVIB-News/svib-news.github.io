@@ -5,6 +5,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: SVIB News
+subtitle: By the BINJ News club
 name: SVIB News  # default author name
 email: svib-news@outlook.com
 locale: en-US
@@ -18,30 +19,65 @@ url: "https://svib-news.github.io" # the base hostname & protocol for your site,
 # Build settings
 # theme: minima
 theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: dark
 plugins:
   - jekyll-feed
+  - jekyll-archives
 
 include:
   - _pages
+  - Issues
+  - Articles
 
 defaults:
+  # all posts and pages
   - scope:
       path: ""
     values:
       author: SVIB News
       author_profile: true
+      layout: single
+  # posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      show_date: true
+      permalink: /:categories/:title/
+      breadcrumbs: true
+  # pages
   - scope:
       path: ""
       type: pages
     values:
-      layout: single
       author_profile: false
+  # Issues only
   - scope:
       path: Issues
       type: posts
     values:
-      layout: single
+      layout: issue
       excerpt: ""
+      read_time: false
+  # Articles only
+  - scope:
+      path: Articles
+      type: posts
+    values: {}
+
+footer_scripts:
+  - /assets/js/captions.js
+
+jekyll-archives:
+  enabled:
+    - categories
+  permalinks:
+    category: '/:name/'
+  layout: jekyll-archive
 
 # Exclude from processing.
 # The following items will not be processed, by default.

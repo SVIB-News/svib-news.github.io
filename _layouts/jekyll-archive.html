@@ -1,0 +1,17 @@
+---
+layout: archive
+---
+
+<style>
+  #page-title {
+    display: none;
+  }
+</style>
+
+<h1>{{ page.type | capitalize }}: {{ page.title }}</h1>
+
+<div class="entries-list">
+  {% for post in page.posts %}
+  {% include archive-single.html type="list" %}
+  {% endfor %}
+</div>

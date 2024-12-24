@@ -1,0 +1,10 @@
+figure {
+    margin: 0;
+}
+figcaption {
+    font-family: inherit;
+    font-style: italic;
+}
+blockquote {
+    font-style: normal;
+}

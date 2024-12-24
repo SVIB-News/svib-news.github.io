@@ -13,3 +13,13 @@ Beyond reporting, we’re here to give you a voice. This paper is your platform 
 ## FUN FACT
 
 You might have spotted our anime-styled mascot, Nyuus Chan (ニュースチャン). Get it? “Nyuus” sounds like “Nyaa” — a cute twist on “news”! For this year, a brand new mascot is in the works… Who will it be? Stay tuned to meet the next face of our School Newspaper Club!
+
+-----
+
+## Student Quotes
+
+{% for quote in site.data.quotes %}
+> {{ quote.text }}
+
+<cite>{{ quote.author }}</cite>{: .small}
+{% endfor %}
