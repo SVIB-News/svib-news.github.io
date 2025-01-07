@@ -1,5 +1,6 @@
 ---
 title: "Feast! A Taste of South Africa Brought to Our Boarding Community"
+image: /assets/images/2024-11-29-african-feast/grilling.png
 ---
 
 ![Caption: *Sirloin Steak and Sausages being cooked on the grill which are generously purchased by Mr. De Ruiter.](/assets/images/2024-11-29-african-feast/grilling.png)
