@@ -3,13 +3,13 @@ layout: archive
 author_profile: false
 ---
 
-![SVIB News logo](/assets/images/logo-250x250.png)
+![Logo](/assets/images/logo.png){: .home-icon}
 
-# SVIB News
+# Voice of Students
 
-<small>SVIB news is designed to give students a voice in the school, offering unique content unprovided on the official platform.</small>
+<small>Voice of Students is designed to give students a voice in the school, offering unique content unprovided on the official platform.</small>
 
-![Group photo](/assets/images/group-photo.jpg)
+![Group photo](/assets/images/group_photo.png)
 
 {% assign categories = "Issues,Articles" | split: "," %}
 

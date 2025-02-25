@@ -1,9 +1,4 @@
 {% assign document = post | default: page %}
-{% if include.type == "list" and document.image %}
-  <p class="page__meta">
-    <img src="{{ document.image }}" alt="{{ document.title }}">
-  </p>
-{% endif %}
 {% if document.read_time or document.show_date %}
   <p class="page__meta">
     {% if document.show_date and document.date %}
@@ -32,5 +27,10 @@
         {% endif %}
       </span>
     {% endif %}
+  </p>
+{% endif %}
+{% if include.type == "list" and document.image %}
+  <p class="page__meta">
+    <img src="{{ document.image }}" alt="{{ document.title }}">
   </p>
 {% endif %}

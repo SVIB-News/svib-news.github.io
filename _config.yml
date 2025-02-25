@@ -4,14 +4,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: SVIB News
+title: Voice of Students
 subtitle: By the BINJ News club
-name: SVIB News  # default author name
+name: Voice of Students  # default author name
 email: svib-news@outlook.com
 locale: en-US
 logo: /assets/images/logo.png
 description: >-
-  SVIB news is designed to give students a voice in the school,
+  Voice of Students news is designed to give students a voice in the school,
   offering unique content unprovided on the official platform.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://svib-news.github.io" # the base hostname & protocol for your site, e.g. http://example.com
