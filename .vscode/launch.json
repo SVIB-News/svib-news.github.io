@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "command": "bundle exec jekyll serve -l",
+            "name": "Start app",
+            "request": "launch",
+            "type": "node-terminal"
+        }
+    ]
+}
