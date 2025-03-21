@@ -1,9 +1,9 @@
 ---
 title: "Feast! A Taste of South Africa Brought to Our Boarding Community"
-image: /assets/images/2024-11-29-african-feast/grilling.png
+image: /assets/images/2024-11-29-african-feast/grilling.jpg
 ---
 
-![Caption: *Sirloin Steak and Sausages being cooked on the grill which are generously purchased by Mr. De Ruiter.](/assets/images/2024-11-29-african-feast/grilling.png)
+![Caption: *Sirloin Steak and Sausages being cooked on the grill which are generously purchased by Mr. De Ruiter.](/assets/images/2024-11-29-african-feast/grilling.jpg)
 
 After the evening studies had ended, a long grill was kindled beneath the twinkling night sky, its coals illuminating in a warm, steady red. Around it, low and comfortable chairs were set in a cozy circle. Between hearty draughts from deep glasses, the students feasted upon plump sausages, toasted sandwiches, and generous cuts of sirloin with juices glistening in the warm firelight. The rhythmic hum of hip-hop music drifted through the air, mingling with easy laughers and the savory aroma that filled the night…
 

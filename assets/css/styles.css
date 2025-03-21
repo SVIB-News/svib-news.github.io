@@ -14,7 +14,10 @@ blockquote {
 .page__meta-image {
     max-width: 100%;
     border-radius: 24px;
-    border: 2px solid gray;
+    /* border: 2px solid gray; */
     aspect-ratio: 16 / 9;
     object-fit: cover;
+}
+.page__subtitle {
+    line-height: 80%    ;
 }
